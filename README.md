@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+<img src="https://i.imgur.com/5MWB0JW.png">
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
