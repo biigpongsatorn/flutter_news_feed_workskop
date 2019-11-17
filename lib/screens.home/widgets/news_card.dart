@@ -11,23 +11,22 @@ class NewsCard extends StatelessWidget {
       padding: EdgeInsets.all(10),
       child: Column(
         children: <Widget>[
-          Image.network(news.cover),
+          news.urlToImage != null
+              ? Image.network(news.urlToImage)
+              : Image.asset('assets/images/news-cover.png'),
           Container(
             padding: EdgeInsets.only(top: 10),
             child: Align(
               alignment: Alignment.topLeft,
               child: Text(
                 news.title,
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20
-                ),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
               ),
             ),
           ),
           Align(
             alignment: Alignment.topLeft,
-            child: Text(news.createdAt.toString()),
+            child: Text(news.publishedAt),
           )
         ],
       ),

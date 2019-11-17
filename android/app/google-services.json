@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "783378192951",
+    "firebase_url": "https://news-30b6e.firebaseio.com",
+    "project_id": "news-30b6e",
+    "storage_bucket": "news-30b6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783378192951:android:4da34a394fbade9eef7db2",
+        "android_client_info": {
+          "package_name": "com.example.news_workskop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783378192951-n8h50oeflb53tn8rtfn6heuj3cknsgu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkx5HHX-nBZ8uwvHTEyBK99PxMWnmkZj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783378192951-n8h50oeflb53tn8rtfn6heuj3cknsgu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
